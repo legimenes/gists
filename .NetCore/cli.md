@@ -2,7 +2,18 @@
 
 #### Instalar EntityFramework Core
 ```
-dotnet tool install dotnet-ef --global
+dotnet tool install -g dotnet-ef
+```
+
+#### Instalar Scaffolder
+```
+dotnet tool install -g dotnet-aspnet-codegenerator
+```
+
+#### Scaffolder Identity
+```
+dotnet aspnet-codegenerator identity -h
+dotnet aspnet-codegenerator identity [--useDefaultUI] [-dc {application_dbcontext_name}]
 ```
 
 #### Criar solution
