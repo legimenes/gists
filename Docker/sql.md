@@ -1,5 +1,10 @@
 ## Gerenciando o SQL Server
 
+#### Baixar imagem
+```
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+```
+
 #### Docker Compose
 ```
 services:
