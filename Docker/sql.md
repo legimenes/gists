@@ -1,6 +1,6 @@
 ## Gerenciando o SQL Server
 
-#### Baixar imagem
+#### Baixar a imagem
 ```
 docker pull mcr.microsoft.com/mssql/server:2019-latest
 ```
