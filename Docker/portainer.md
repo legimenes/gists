@@ -16,3 +16,18 @@ docker pull portainer/portainer
 ```
 docker run -d --name portainer -p 7000:9000 --restart always -v /var/run/docker.sock:/var/run/docker.sock -v c:\lg\containers\portainer\data:/data portainer/portainer
 ```
+
+#### Docker Compose
+```
+services:
+    portainer:
+        image: portainer/portainer-ce:latest
+        container_name: portainer-ce
+        command: -H unix:///var/run/docker.sock
+        ports:
+            - 7000:9000
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - c:\lg\containers\portainer-ce\data:/data
+        restart: always
+```
