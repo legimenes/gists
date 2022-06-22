@@ -36,6 +36,11 @@ dotnet new xunit --name {project_name} [-f {netcoreapp3.1|net5.0|net6.0}]
 dotnet sln add .\{project_directory}\{project_name}.csproj
 ```
 
+#### Remover projeto da solution
+```
+dotnet sln remove .\{project_directory}\{project_name}.csproj
+```
+
 #### Adicionar referência de um projeto dentro de outro
 ```
 dotnet add {project_name} reference {referenced_project_name}
