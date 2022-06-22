@@ -12,8 +12,7 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 
 #### Scaffolder Identity
 ```
-dotnet aspnet-codegenerator identity -h
-dotnet aspnet-codegenerator identity [--useDefaultUI] [-dc {application_dbcontext_name}]
+dotnet aspnet-codegenerator identity [--useDefaultUI] [-dc {dbcontext_name_with_namespace}]
 ```
 
 #### Criar solution
