@@ -5,24 +5,33 @@
 docker info
 ```
 
+### Imagens
+
 #### Listar todas as imagens
 ```
 docker images -a
 ```
 
-#### Listar todos os containers
-```
-docker ps -a
-```
-
-#### Listar as redes
-```
-docker network ls
-```
-
 #### Exibir informações detalhadas de uma imagem específica
 ```
 docker image inpect {image_name}
+```
+
+#### Remover uma imagem específica
+```
+docker image rm {image_name}
+```
+
+#### Remover imagens pendentes (camadas que não têm relação com nenhuma imagem marcada)
+```
+docker images purge
+```
+
+### Containers
+
+#### Listar todos os containers
+```
+docker ps -a
 ```
 
 #### Criar um container
@@ -66,25 +75,23 @@ docker exec -it {container_id} date
 docker exec -it {container_id} bash
 ```
 
+#### Remover um container específico
+```
+docker container rm {container_id}
+```
+
+### Redes
+
+#### Listar as redes
+```
+docker network ls
+```
+
+### Gerenciamento
+
 #### Remover imagens, containeres, volumes, e redes que estão pendentes (não associados a um container)
 > Flags:</br>
 -a = remove adicionalmente quaisquer containeres e todas as imagens não utilizadas (não apenas imagens pendentes)
 ```
 docker system prune [-a]
 ```
-
-#### Remover uma imagem específica
-```
-docker image rm {image_name}
-```
-
-#### Remover imagens pendentes (camadas que não têm relação com nenhuma imagem marcada)
-```
-docker images purge
-```
-
-#### Remover um container específico
-```
-docker container rm {container_id}
-```
-
