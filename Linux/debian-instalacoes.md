@@ -63,6 +63,11 @@ wget http://archive.ubuntu.com/ubuntu/pool/universe/x/x264/libx264-152_0.152.285
 sudo apt install ./libx264-152_0.152.2854+gite9a5903-2_amd64.deb
 ```
 
+### qBitTorrent:
+```
+apt-get install qbittorrent
+```
+
 #### VS Code
 ```
 apt install software-properties-common
