@@ -43,8 +43,26 @@ cat /etc/apt/sources.list
 
 #### Versao do debian instalado
 ```
-apt-gt install lsb-release
+apt-get install lsb-release
 ```
 ```
 lsb_release -a
+```
+
+### Componentes externos
+---
+
+#### Conectar Telefone
+Instalar e criar diretório
+```
+apt install jmtpfs
+mkdir -p ~/mnt/phone
+```
+Montar partição
+```
+jmtpfs ~/mnt/phone/
+```
+Desmontar partição
+```
+fusermount -u ~/mnt/phone
 ```
