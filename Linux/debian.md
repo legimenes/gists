@@ -43,29 +43,8 @@ cat /etc/apt/sources.list
 
 #### Versao do debian instalado
 ```
-apt install lsb-release
+apt-gt install lsb-release
 ```
 ```
 lsb_release -a
-```
-
-### Instalação de aplicações
----
-
-#### SDK do .NET
-Download
-```
-wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-rm packages-microsoft-prod.deb
-```
-SDK do .NET
-```
-sudo apt-get update && \
-sudo apt-get install -y dotnet-sdk-6.0
-```
-Runtime do .NET
-```
-sudo apt-get update && \
-sudo apt-get install -y aspnetcore-runtime-6.0
 ```
