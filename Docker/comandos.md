@@ -89,7 +89,7 @@ docker network ls
 
 ### Gerenciamento
 
-#### Remover imagens, containeres, volumes, e redes que estão pendentes (não associados a um container)
+#### Remover imagens, containers parados, volumes e redes que estão pendentes (não associados a um container)
 > Flags:</br>
 -a = remove adicionalmente quaisquer containeres e todas as imagens não utilizadas (não apenas imagens pendentes)
 ```
