@@ -49,6 +49,11 @@ apt-get install lsb-release
 lsb_release -a
 ```
 
+#### Alterar o owner
+```
+chown [-R] {usuario} {pasta_ou_arquivo}
+```
+
 ### Componentes externos
 ---
 
