@@ -4,7 +4,7 @@
 ---
 
 ```
-apt-get install curl \ apt-transport-https \ lsb-release
+apt-get install curl apt-transport-https lsb-release
 ```
 
 ### Pacotes para Desenvolvimento
