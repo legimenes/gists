@@ -38,7 +38,7 @@ apt list --installed
 cat /etc/apt/sources.list
 ```
 
-### Monitoramento do SO
+### Gerenciamento do SO
 ---
 
 #### Versao do debian instalado
