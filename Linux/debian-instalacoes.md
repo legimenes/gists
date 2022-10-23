@@ -31,21 +31,6 @@ sudo apt-get install -y aspnetcore-runtime-6.0
 ### Pacotes para interface gráfica
 ---
 
-#### Android Studio
-Bibliotecas necessárias para máquinas 64 bits
-```
-dpkg --add-architecure i386
-apt install install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
-```
-
-Ativar Play Store<br>
-Em /home/{user}/.android/avd/10.1_WXGA_Tablet_API_30.avd/config.ini<br>
-Editar as seguintes configurações
-```
-PlayStore.enabled=true
-image.sysdir.1 = system-images\android-30\google_apis_playstore\x86\
-```
-
 #### Google Chrome
 ```
 apt install wget
