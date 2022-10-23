@@ -41,7 +41,7 @@ cat /etc/apt/sources.list
 ### Gerenciamento do SO
 ---
 
-#### Versao do debian instalado
+#### Versão do debian instalado
 ```
 apt-get install lsb-release
 ```
@@ -57,7 +57,7 @@ chown [-R] {usuario} {pasta_ou_arquivo}
 ### Componentes externos
 ---
 
-#### Conectar Telefone
+#### Conectar telefone
 Instalar e criar diretório
 ```
 apt install jmtpfs
