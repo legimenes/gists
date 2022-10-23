@@ -41,12 +41,18 @@ cat /etc/apt/sources.list
 ### Gerenciamento do SO
 ---
 
-#### Versão do debian instalado
+#### Versão da distribuição instalada
 ```
 apt-get install lsb-release
 ```
 ```
 lsb_release -a
+```
+
+#### Listar pacotes instalados
+```
+dpkg-query -l
+dpkg-query -l [| grep nome_pacote]
 ```
 
 #### Alterar o owner
