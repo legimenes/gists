@@ -6,6 +6,7 @@ docker info
 ```
 
 ### Imagens
+---
 
 #### Listar todas as imagens
 ```
@@ -28,6 +29,7 @@ docker images purge
 ```
 
 ### Containers
+---
 
 #### Listar todos os containers
 ```
@@ -81,6 +83,7 @@ docker container rm {container_id}
 ```
 
 ### Redes
+---
 
 #### Listar as redes
 ```
@@ -88,10 +91,16 @@ docker network ls
 ```
 
 ### Gerenciamento
+---
 
 #### Remover imagens, containers parados, volumes e redes que estão pendentes (não associados a um container)
 > Flags:</br>
 -a = remove adicionalmente quaisquer containeres e todas as imagens não utilizadas (não apenas imagens pendentes)
 ```
 docker system prune [-a]
+```
+
+#### Copiar arquivo do host para um container
+```
+docker cp {path_do_diretorio_com_arquivo} container_id:/{path_do_diretorio_com_arquivo}
 ```
