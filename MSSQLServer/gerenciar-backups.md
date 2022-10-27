@@ -2,7 +2,7 @@
 
 ### Listar arquivos do backup
 ```
-RESTORE FILELISTONLY FROM DISK = N'{path_arquivo.bak}';
+RESTORE FILELISTONLY FROM DISK = N'{path_arquivo.bak}'
 ```
 
 ### Restaurar backup
