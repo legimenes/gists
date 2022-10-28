@@ -15,12 +15,12 @@ docker images -a
 
 #### Exibir informações detalhadas de uma imagem específica
 ```
-docker image inpect {image_name}
+docker image inpect <image_name>
 ```
 
 #### Remover uma imagem específica
 ```
-docker image rm {image_name}
+docker image rm <image_name>
 ```
 
 #### Remover imagens pendentes (camadas que não têm relação com nenhuma imagem marcada)
@@ -42,12 +42,12 @@ docker ps -a
 -it = modo interativo (aguarda interação)</br>
 --restart = inicializa o container automaticamente quando o docker inicializar
 ```
-docker run [-d|-it] --name {container_name} [--restart always] {image_name}
+docker run [-d|-it] --name <container_name> [--restart always] <image_name>
 ```
 
 #### Inicializar um container específico
 ```
-docker start {container_name}
+docker start <container_name>
 ```
 
 #### Inicializer um container automaticamente
@@ -59,27 +59,27 @@ unless-stopped = igual o always, exceto que se for parado manualmente não é re
 
 #### Configurando a política de restart para um container parado
 ```
-docker run -d --restart {no|on-failure|always|unless-stopped} {container_name}
+docker run -d --restart <no|on-failure|always|unless-stopped> <container_name>
 ```
 
 #### Configurando a política de restart para um container em execução
 ```
-docker update --restart {no|on-failure|always|unless-stopped} {container_name}
+docker update --restart <no|on-failure|always|unless-stopped> <container_name>
 ```
 
 #### Exibir a data de um container específico
 ```
-docker exec -it {container_id} date
+docker exec -it <container_id> date
 ```
 
 #### Executar o shell de um container que possua o recurso
 ```
-docker exec -it {container_id} bash
+docker exec -it <container_id> bash
 ```
 
 #### Remover um container específico
 ```
-docker container rm {container_id}
+docker container rm <container_id>
 ```
 
 ### Redes
@@ -102,5 +102,5 @@ docker system prune [-a]
 
 #### Copiar arquivo do host para um container
 ```
-docker cp {path_do_diretorio_com_arquivo} container_id:/{path_do_diretorio_com_arquivo}
+docker cp <path_do_diretorio_com_arquivo> container_id:/<path_do_diretorio_com_arquivo>
 ```
