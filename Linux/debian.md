@@ -5,7 +5,7 @@
 
 #### Url da imagem para instalação:
 https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/<br>
-Selecionar: {versão}-live+nonfree/amd64/iso-hybrid
+Selecionar: <versão>-live+nonfree/amd64/iso-hybrid
 
 ### root
 ---
@@ -57,7 +57,7 @@ dpkg-query -l [| grep nome_pacote]
 
 #### Alterar o owner
 ```
-chown [-R] {usuario} {pasta_ou_arquivo}
+chown [-R] <usuario> <pasta_ou_arquivo>
 ```
 
 ### Componentes externos
