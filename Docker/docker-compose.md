@@ -6,5 +6,5 @@
 -f = especifica um arquivo compose</br>
 -d = rodar em background
 ```
-docker-compose [-p "stack_name"] {-f} {c:/my-path/my-docker.yml} {up|down} [-d]
+docker-compose [-p "stack_name"] <-f> <c:/my-path/my-docker.yml> <up|down> [-d]
 ```
