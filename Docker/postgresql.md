@@ -33,7 +33,7 @@ docker run -d --name pgadmin4 --network=postgres-network -p 15444:80 -e "PGADMIN
 
 #### Executar o PostgreSQL em modo interativo
 ```
-docker exec -it postgres-server psql -U postgres \c {database_name}
+docker exec -it postgres-server psql -U postgres \c <database_name>
 ```
 
 #### Comando do PostgreSQL para exportar de um arquivo csv para tabela
