@@ -34,6 +34,9 @@ dotnet new xunit --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0>]
 ```
 dotnet sln add .\<project_directory>\<project_name>.csproj
 ```
+```
+dotnet sln add <project_name>
+```
 
 #### Remover projeto da solution
 ```
