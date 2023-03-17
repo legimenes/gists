@@ -32,5 +32,5 @@ dotnet ef migrations remove [--verbose]
 
 #### Scaffold
 ```
-dotnet-ef dbcontext scaffold <string_conexao> Microsoft.EntityFrameworkCore.SqlServer [-o nome_pasta] [-f] [-t nome_tabela1 -t nome_tabela2] [--verbose]
+dotnet ef dbcontext scaffold <"string_conexao"> Microsoft.EntityFrameworkCore.SqlServer [-o nome_pasta] [-f] [-t nome_tabela1 -t nome_tabela2] [--verbose]
 ```
