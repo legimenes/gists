@@ -20,14 +20,9 @@ dotnet aspnet-codegenerator identity [--useDefaultUI] [-dc <dbcontext_name_with_
 dotnet new sln --name <solution_name>
 ```
 
-#### Criar projeto class library
+#### Criar projeto
 ```
-dotnet new classlib --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0>]
-```
-
-#### Criar projeto xunit
-```
-dotnet new xunit --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0>]
+dotnet new <classlib|webapi|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0>]
 ```
 
 #### Adicionar projeto à solution
