@@ -1,6 +1,6 @@
 ## Criação de objetos base do Banco de Dados
 
-### Criação de usuário com direitos de admin para a aplicação
+### Criação de usuário com direitos de admin
 ```
 create user <username>
   identified by <password>
