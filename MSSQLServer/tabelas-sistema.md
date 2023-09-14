@@ -83,3 +83,11 @@ FROM INFORMATION_SCHEMA.VIEWS , sysobjects
 WHERE Table_Name = sysobjects.[name] 
 ORDER BY 1
 ```
+
+### Obter texto em uma stored procedure
+```
+SELECT DISTINCT O.Name, O.Type_desc
+FROM sys.sql_modules M
+INNER JOIN sys.objects O ON M.Object_id = O.Object_id
+WHERE M.Definition Like '%[text_to_search]%';
+```
