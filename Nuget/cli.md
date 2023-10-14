@@ -43,7 +43,7 @@ dotnet pack [--configuration=release]
 nuget add <package_name.0.0.0.nupkg> -source <repository_path>
 ```
 
-### Remover o pacote de um repositório local
+### Remover um pacote de um repositório local
 ```
 nuget delete {NOME_PACOTE} {NUMERO_VERSAO} -source {PATH_REPOSITORIO}
 ```
