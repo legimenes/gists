@@ -72,9 +72,3 @@ dotnet build [<solution_name.sln|project_name.csproj>] [--configuration Release]
 ```
 dotnet publish [--configuration Release]
 ```
-
-#### Criar um pacote para posterior publicação em repositórios
-```
-dotnet pack [--configuration=release]
-nuget add <package_name.0.0.0.nupkg> -source <repository_path>
-```
