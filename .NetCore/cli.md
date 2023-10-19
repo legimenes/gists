@@ -22,7 +22,7 @@ dotnet new sln --name <solution_name>
 
 #### Criar projeto
 ```
-dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0>]
+dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0|net7.0>]
 ```
 
 #### Adicionar projeto à solution
