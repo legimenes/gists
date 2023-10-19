@@ -50,7 +50,7 @@ dotnet add package <package_name> [--version=<version_number>]
 
 #### Adicionar pacote do nuget de repositório local
 ```
-dotnet add package <package_name> [--version <version_number>] -s <repository_path>
+dotnet add [project] package <package_name> [--version <version_number>] -s <repository_path>
 ```
 
 #### Remover referência de pacote nuget
