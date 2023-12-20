@@ -7,7 +7,7 @@ feat: adicionando log
 |     |
 |     +-> Resumo no tempo presente.
 |
-+-------> tipo: chore, ci, docs, feat, fix, refactor, style, ou test.
++-------> tipo: build, ci, docs, feat, fix, refactor, style, ou test.
 ```
 
 ### Tipos
