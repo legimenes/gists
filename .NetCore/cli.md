@@ -1,31 +1,31 @@
-## Interface de linha de comando do .Net Core
+# .NET Core Command Line Interface
 
-#### Instalar EntityFramework Core
+## Install EntityFramework Core
 ```
 dotnet tool install -g dotnet-ef
 ```
 
-#### Instalar Scaffolder
+## Install Scaffolder
 ```
 dotnet tool install -g dotnet-aspnet-codegenerator
 ```
 
-#### Scaffolder Identity
+## Identity Scaffolder 
 ```
 dotnet aspnet-codegenerator identity [--useDefaultUI] [-dc <dbcontext_name_with_namespace>]
 ```
 
-#### Criar solution
+## Create solution
 ```
 dotnet new sln --name <solution_name>
 ```
 
-#### Criar projeto
+## Create project
 ```
-dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0|net7.0>]
+dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0|net7.0|net8.0>]
 ```
 
-#### Adicionar projeto à solution
+## Add project to solution
 ```
 dotnet sln add .\<project_directory>\<project_name>.csproj
 ```
@@ -33,42 +33,42 @@ dotnet sln add .\<project_directory>\<project_name>.csproj
 dotnet sln add <project_name>
 ```
 
-#### Remover projeto da solution
+## Remove project from solution
 ```
 dotnet sln remove .\<project_directory>\<project_name>.csproj
 ```
 
-#### Adicionar referência de um projeto dentro de outro
+## Add referece from one project to another
 ```
 dotnet add <project_name> reference <referenced_project_name>
 ```
 
-#### Adicionar pacote do nuget
+## Add nuget package
 ```
 dotnet add package <package_name> [--version=<version_number>]
 ```
 
-#### Adicionar pacote do nuget de repositório local
+## Add nuget package from local repository
 ```
 dotnet add [project] package <package_name> [--version <version_number>] -s <repository_path>
 ```
 
-#### Remover referência de pacote nuget
+## Remove reference from nuget package
 ```
 dotnet remove package <package_name>
 ```
 
-#### Limpar projeto
+## Clean project
 ```
 dotnet clean
 ```
 
-#### Executar build
+## Build
 ```
 dotnet build [<solution_name.sln|project_name.csproj>] [--configuration Release]
 ```
 
-#### Publicar
+## Publish
 ```
 dotnet publish [--configuration Release]
 ```
