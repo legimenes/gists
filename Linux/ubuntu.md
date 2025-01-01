@@ -9,8 +9,6 @@ Follow the instructions at https://ubuntu.com/tutorials/create-a-usb-stick-on-ub
 ### Region and languages
 
 **Keyboard non ABNT2**  
-```
-Language: English (United States)  
-Formats: Brasil  
-Input sources: English (US, intl, with dead keys)
-```
+Language|Formats|Input sources
+-|-|-
+English (United States)|Brasil|English (US, intl, with dead keys)
