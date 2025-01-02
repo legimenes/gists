@@ -4,6 +4,8 @@
 [OS download and installation](#os-download-and-installation)  
 [Settings](#settings)  
 &nbsp;&nbsp;[Region and languages](region-and-languages)  
+[OS management](#os-management)  
+&nbsp;&nbsp;[Create bash scripts](#create-bash-scripts)  
 
 ## OS download and installation
 
@@ -18,7 +20,9 @@ Language|Formats|Input sources
 -|-|-
 English (United States)|Brasil|English (US, intl, with dead keys)
 
-## Create bash scripts
+## OS management
+
+### Create bash scripts
 1. Create a file with **.sh** extension  
 2. On the very first line of the file:
 ```
