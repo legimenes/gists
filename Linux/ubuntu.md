@@ -12,3 +12,18 @@ Follow the instructions at https://ubuntu.com/tutorials/create-a-usb-stick-on-ub
 Language|Formats|Input sources
 -|-|-
 English (United States)|Brasil|English (US, intl, with dead keys)
+
+## Create bash scripts
+1. Create a file with **.sh** extension  
+2. On the very first line of the file:
+```
+#!/bin/bash
+```
+3. Make the file executable
+```
+chmod +x <direcory/filename>
+```
+4. Execute script
+```
+./<filename>
+```
