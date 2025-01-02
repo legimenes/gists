@@ -21,7 +21,7 @@ English (United States)|Brasil|English (US, intl, with dead keys)
 ```
 3. Make the file executable
 ```
-chmod +x <direcory/filename>
+chmod +x <filename>
 ```
 4. Execute script
 ```
