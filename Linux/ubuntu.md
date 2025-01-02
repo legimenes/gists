@@ -1,9 +1,9 @@
 # Ubuntu Guide
 
 ## Index
-[Download](#blablabla)
+[OS download and installation](#os-download-and-installation)  
 
-## Download and installation
+## OS download and installation
 
 Follow the instructions at https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview
 
@@ -30,5 +30,3 @@ chmod +x <filename>
 ```
 ./<filename>
 ```
-
-## Blablabla
