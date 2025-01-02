@@ -2,6 +2,8 @@
 
 ## Index
 [OS download and installation](#os-download-and-installation)  
+[Settings](#settings)  
+&nbsp;&nbsp;[Region and languages](region-and-languages)  
 
 ## OS download and installation
 
