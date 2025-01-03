@@ -58,6 +58,16 @@ cd /etc/apt/sources.list.d
 
 ## Gerenciamento do SO
 
+### Alterar hostname
+Em novas instalações de SO o nome de usuário no terminal pode resultar em algo similar a `leandro@leandro-To-be-filled-by-O-E-M`. Para alterar o hostname:
+```
+sudo hostnamectl set-hostname <HOSTNAME>
+```
+Local onde fica definido o hostname
+```
+cd /sys/devices/virtual/dmi/id/modalias
+```
+
 ### Criar bash scripts
 1. Criar um arquivo com a extensão **.sh**  
 2. Inlcuir na primeira linha do arquivo:
