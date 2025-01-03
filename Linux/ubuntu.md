@@ -1,38 +1,78 @@
-# Ubuntu Guide
+# Guia da distribuição Ubuntu
 
-## Index
-[OS download and installation](#os-download-and-installation)  
-[Settings](#settings)  
+## Índice
+[Download e instalação do SO](#download-e-instalação-do-so)  
+
+[Configurações do SO](#configurações-do-so)  
 &nbsp;&nbsp;[Region and languages](#region-and-languages)  
-[OS management](#os-management)  
-&nbsp;&nbsp;[Create bash scripts](#create-bash-scripts)  
 
-## OS download and installation
+[Usuário root](#usuário-root)  
+&nbsp;&nbsp;[Entrar em modo root](#entrar-em-modo-root)  
 
-Follow the instructions at https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview
+[apt](#apt)  
+&nbsp;&nbsp;[Atualizar apt](#atualizar-apt)  
+&nbsp;&nbsp;[Atualizar pacotes instalados](#atualizar-pacotes-instalados)  
+&nbsp;&nbsp;[Exbir pacotes instalados](#exbir-pacotes-instalados)  
+&nbsp;&nbsp;[Local das fontes de download do apt](#local-das-fontes-de-download-do-apt)  
 
-## Settings
+[Gerenciamento do SO](#gerenciamento-do-so)  
+&nbsp;&nbsp;[Criar bash scripts](#criar-bash-scripts)  
+
+## Download e instalação do SO
+
+Seguir as instruções em: https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview
+
+## Configurações do SO
 
 ### Region and languages
 
-**Keyboard non ABNT2**  
-Language|Formats|Input sources
--|-|-
-English (United States)|Brasil|English (US, intl, with dead keys)
+Keyboard|Language|Formats|Input sources
+-|-|-|-
+non ABNT2|English (United States)|Brasil|English (US, intl, with dead keys)
 
-## OS management
+## Usuário root
 
-### Create bash scripts
-1. Create a file with **.sh** extension  
-2. On the very first line of the file:
+### Entrar em modo root
+```
+sudo -s
+```
+
+## apt
+
+## Atualizar apt
+```
+apt update
+```
+
+## Atualizar pacotes instalados
+```
+apt upgrade
+```
+
+## Exbir pacotes instalados
+```
+apt list
+```
+`--installed`: pacotes instalados
+
+## Local das fontes de download do apt
+```
+cd /etc/apt/sources.list.d
+```
+
+## Gerenciamento do SO
+
+### Criar bash scripts
+1. Criar um arquivo com a extensão **.sh**  
+2. Inlcuir na primeira linha do arquivo:
 ```
 #!/bin/bash
 ```
-3. Make the file executable
+3. Fazer o arquivo executável
 ```
 chmod +x <filename>
 ```
-4. Execute script
+4. Executar o script
 ```
 ./<filename>
 ```
