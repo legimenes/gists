@@ -3,7 +3,7 @@
 ## Index
 [OS download and installation](#os-download-and-installation)  
 [Settings](#settings)  
-&nbsp;&nbsp;[Region and languages](region-and-languages)  
+&nbsp;&nbsp;[Region and languages](#region-and-languages)  
 [OS management](#os-management)  
 &nbsp;&nbsp;[Create bash scripts](#create-bash-scripts)  
 
