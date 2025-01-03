@@ -1,21 +1,17 @@
 # Guia da distribuição Ubuntu
 
 ## Índice
-[Download e instalação do SO](#download-e-instalação-do-so)  
-
-[Configurações do SO](#configurações-do-so)  
+[**Download e instalação do SO**](#download-e-instalação-do-so)  
+[**Configurações do SO**](#configurações-do-so)  
 &nbsp;&nbsp;[Region and languages](#region-and-languages)  
-
-[Usuário root](#usuário-root)  
+[**Usuário root**](#usuário-root)  
 &nbsp;&nbsp;[Entrar em modo root](#entrar-em-modo-root)  
-
-[apt](#apt)  
+[**apt**](#apt)  
 &nbsp;&nbsp;[Atualizar apt](#atualizar-apt)  
 &nbsp;&nbsp;[Atualizar pacotes instalados](#atualizar-pacotes-instalados)  
 &nbsp;&nbsp;[Exbir pacotes instalados](#exbir-pacotes-instalados)  
 &nbsp;&nbsp;[Local das fontes de download do apt](#local-das-fontes-de-download-do-apt)  
-
-[Gerenciamento do SO](#gerenciamento-do-so)  
+[**Gerenciamento do SO**](#gerenciamento-do-so)  
 &nbsp;&nbsp;[Criar bash scripts](#criar-bash-scripts)  
 
 ## Download e instalação do SO
