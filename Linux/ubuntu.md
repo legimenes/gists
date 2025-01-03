@@ -12,6 +12,7 @@
 &nbsp;&nbsp;[Exbir pacotes instalados](#exbir-pacotes-instalados)  
 &nbsp;&nbsp;[Local das fontes de download do apt](#local-das-fontes-de-download-do-apt)  
 [**Gerenciamento do SO**](#gerenciamento-do-so)  
+&nbsp;&nbsp;[Alterar hostname](#alterar-hostname)  
 &nbsp;&nbsp;[Criar bash scripts](#criar-bash-scripts)  
 
 ## Download e instalação do SO
@@ -59,7 +60,7 @@ cd /etc/apt/sources.list.d
 ## Gerenciamento do SO
 
 ### Alterar hostname
-Em novas instalações de SO o nome de usuário no terminal pode resultar em algo similar a `leandro@leandro-To-be-filled-by-O-E-M`. Para alterar o hostname:
+Em novas instalações de SO o nome de usuário no terminal pode resultar em algo similar a `leandro@leandro-To-be-filled-by-O-E-M`. Para alterar o hostname executar o comando abaixo e reiniciar o SO.
 ```
 sudo hostnamectl set-hostname <HOSTNAME>
 ```
