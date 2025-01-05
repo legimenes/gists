@@ -10,6 +10,8 @@
 &nbsp;&nbsp;[Atualizar apt](#atualizar-apt)  
 &nbsp;&nbsp;[Atualizar pacotes instalados](#atualizar-pacotes-instalados)  
 &nbsp;&nbsp;[Exbir pacotes instalados](#exbir-pacotes-instalados)  
+&nbsp;&nbsp;[Remover pacote específico instalado](#remover-pacote-específico-instalado)  
+&nbsp;&nbsp;[Remover pacotes não utilizados](#remover-pacotes-não-utilizados)  
 &nbsp;&nbsp;[Local das fontes de download do apt](#local-das-fontes-de-download-do-apt)  
 [**Gerenciamento do SO**](#gerenciamento-do-so)  
 &nbsp;&nbsp;[Checar informações do sistema](#checar-informações-do-sistema)  
@@ -52,6 +54,21 @@ apt upgrade
 apt list
 ```
 `--installed`: pacotes instalados
+
+## Remover pacote específico instalado
+```
+apt remove <package-name>
+```
+
+Para remover também arquivos de configuração associados ao pacote
+```
+apt purge <package-name>
+```
+
+## Remover pacotes não utilizados
+```
+apt autoremove
+```
 
 ## Local das fontes de download do apt
 ```
