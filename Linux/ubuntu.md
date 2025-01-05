@@ -12,7 +12,7 @@
 &nbsp;&nbsp;[Exbir pacotes instalados](#exbir-pacotes-instalados)  
 &nbsp;&nbsp;[Local das fontes de download do apt](#local-das-fontes-de-download-do-apt)  
 [**Gerenciamento do SO**](#gerenciamento-do-so)  
-&nbsp;&nbsp;[Versão atual da distribuição](#versão-atual-da-distribuição)  
+&nbsp;&nbsp;[Checar informações do sistema](#checar-informações-do-sistema)  
 &nbsp;&nbsp;[Alterar hostname](#alterar-hostname)  
 &nbsp;&nbsp;[Criar bash scripts](#criar-bash-scripts)  
 
@@ -60,10 +60,16 @@ cd /etc/apt/sources.list.d
 
 ## Gerenciamento do SO
 
-### Versão atual da distribuição
+### Checar informações do sistema
+**Versão atual da distribuição**
 ```
 apt install lsb-release
 lsb_release -a
+```
+
+**Detalhes da CPU**
+```
+lscpu
 ```
 
 ### Alterar hostname
