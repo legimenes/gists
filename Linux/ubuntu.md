@@ -17,6 +17,9 @@
 &nbsp;&nbsp;[Checar informações do sistema](#checar-informações-do-sistema)  
 &nbsp;&nbsp;[Alterar hostname](#alterar-hostname)  
 &nbsp;&nbsp;[Criar bash scripts](#criar-bash-scripts)  
+[**Wine**](#wine)  
+&nbsp;&nbsp;[Checar versão instalada](#checar-versão-instalada)  
+&nbsp;&nbsp;[Configurar diretório do wine](#configurar-diretório-do-wine)  
 
 ## Download e instalação do SO
 
@@ -39,23 +42,23 @@ sudo -s
 
 ## apt
 
-## Atualizar apt
+### Atualizar apt
 ```
 apt update
 ```
 
-## Atualizar pacotes instalados
+### Atualizar pacotes instalados
 ```
 apt upgrade
 ```
 
-## Exbir pacotes instalados
+### Exbir pacotes instalados
 ```
 apt list
 ```
 `--installed`: pacotes instalados
 
-## Remover pacote específico instalado
+### Remover pacote específico instalado
 ```
 apt remove <package-name>
 ```
@@ -65,12 +68,12 @@ Para remover também arquivos de configuração associados ao pacote
 apt purge <package-name>
 ```
 
-## Remover pacotes não utilizados
+### Remover pacotes não utilizados
 ```
 apt autoremove
 ```
 
-## Local das fontes de download do apt
+### Local das fontes de download do apt
 ```
 cd /etc/apt/sources.list.d
 ```
@@ -113,3 +116,18 @@ chmod +x <filename>
 ```
 ./<filename>
 ```
+
+## Wine
+
+### Checar versão instalada
+```
+wine --version
+```
+
+### Configurar diretório do wine
+
+Este comando cria o diretório de configuração do Wine, normalmente localizado em *~/.wine*. Este diretório funciona como o drive C: equivalente do Wine, onde as aplicações windows são instaladas e configuradas.
+```
+wineboot
+```
+
