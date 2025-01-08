@@ -20,6 +20,8 @@
 [**Wine**](#wine)  
 &nbsp;&nbsp;[Checar versão instalada](#checar-versão-instalada)  
 &nbsp;&nbsp;[Configurar diretório do wine](#configurar-diretório-do-wine)  
+&nbsp;&nbsp;[Executar aplicação windows](#executar-aplicação-windows)  
+&nbsp;&nbsp;[Desinstalar aplicação windows](#desinstalar-aplicação-windows)  
 
 ## Download e instalação do SO
 
@@ -131,3 +133,12 @@ Este comando cria o diretório de configuração do Wine, normalmente localizado
 wineboot
 ```
 
+### Executar aplicação windows
+```
+wine start <path/application.exe>
+```
+
+### Desinstalar aplicação windows
+```
+wine uninstaller
+```
