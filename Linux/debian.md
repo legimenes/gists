@@ -6,6 +6,10 @@ by **Leandro Gimenes**
 [DFSG](#dfsg)  
 [Download](#download)  
 [Instalação](#instalação)  
+[Modo root](#modo-root)  
+&nbsp;&nbsp;[Comando su](#comando-su)  
+&nbsp;&nbsp;[Configurar usuário como root](#configurar-usuário-como-root)  
+&nbsp;&nbsp;[Comando sudo](#comando-sudo)  
 
 <div style="page-break-before: always;"></div>
 
@@ -52,15 +56,41 @@ Selecionar: <versão>-live+nonfree/amd64/iso-hybrid
 
 ## Instalação
 
+```bash
+sudo dpkg -i /media/usb/<filename.deb>
+sudo modprobe -r iwlwifi
+sudo modprobe iwlwifi
+```
 
-### root
+## Modo root
+
+### Comando su
+O comando **su -** (substitute user) permite que você mude para o usuário *root* no terminal. O **-** carrega o ambiente do root (como variáveis de sistema), garantindo que você tenha todas as configurações do root. Sem o **-**, você herda algumas configurações do usuário atual.
+```bash
+su -
+```
+O modo root está habilidado com o prompt mudando para algo como `root@hostname:#`
+
+### Configurar usuário como root
+
+Não é recomendado utilizar o sistema no modo *root*. É mais seguro configurar um usuário para ter acesso ao **sudo**:
+```bash
+su -
+adduser <username> sudo
+exit
+```
+Reiniciar a sessão para aplicar as modificações.
+
+
+### Comando sudo
+O comando **sudo** permite executar comandos como *root* sem precisar mudar completamente para o usuário *root*.
+```bash
+sudo [comando]
+```
+O sistema pedirá a senha de usuário (não a do *root*).
+
+
 ---
-
-#### Entrar no modo root
-```
-sudo -s
-```
-
 ### apt
 ---
 
