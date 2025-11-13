@@ -20,6 +20,11 @@ dotnet aspnet-codegenerator identity [--useDefaultUI] [-dc <dbcontext_name_with_
 dotnet new sln --name <solution_name>
 ```
 
+## Migrate solution to slnx
+```
+dotnet sln migrate
+```
+
 ## Create project
 ```
 dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0|net7.0|net8.0>]
