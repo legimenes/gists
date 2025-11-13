@@ -27,7 +27,7 @@ dotnet sln migrate
 
 ## Create project
 ```
-dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0|net7.0|net8.0>]
+dotnet new <classlib|webapi|webapp|console|xunit> --name <project_name> [-f <netcoreapp3.1|net5.0|net6.0|net7.0|net8.0|net9.0|net10.0>]
 ```
 
 ## Add project to solution
