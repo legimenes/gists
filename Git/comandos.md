@@ -36,6 +36,15 @@ Mudar para a branch que vai receber o merge
 git merge <branch_name>
 ```
 
+### Guardar e restaurar mudanças temporariamente
+```
+git stash push -m "<stash description>"
+```
+
+```
+git stash pop
+```
+
 ### Fazendo commit e pull
 ```
 git add .
